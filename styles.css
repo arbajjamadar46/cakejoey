@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.products {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+.section-header1{
+    margin-bottom: 40px;
+}
+
+.section-header1 h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+}
+.products{
+    height: 80vh;
+    padding: 50px;
+
+}
+.section-header p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.products-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fb8263;
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.side-product{
+    background-color: #fdc5b1;
+}
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.product-card p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.product-card .arrow {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fb8263;
+}
+
+.section-header h2 {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.testimonials-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+}
+
+.testimonial-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #ff7043;
+}
+
+.testimonial-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.testimonial-card p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.pagination-dots {
+    margin-top: 30px;
+}
+
+.pagination-dots .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* contact us */
+
+.contact-us {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.contact-us h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 0px solid #ccc;
+    box-shadow: 4px 4px 10px 8px rgba(0, 0, 0, 0.1);
+}
+#textar{
+    height: 80px;
+    margin-bottom: 40px;
+}
+.contact-form button {
+    width: 150px;
+    padding: 15px;
+    background-color: #d1441f;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    margin-left: 250px;
+}
+
+.contact-form button:hover {
+    background-color: #fb8263;
+    color: #333;
+    border: 1px solid #333;
+    font-weight: 500;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-item img {
+    font-size: 20px;
+    color: #d35400;
+    margin-right: 15px;
+}
+
+/*  */
+
+
+    .Nav_Container{
+        display: flex;
+        height: 70px;
+        width: 100%;
+        padding-top: 20px;
+        background-color:#fb8263;
+    }
+    #Logo_img{
+        height: 40px;
+        width: 40px;
+        margin: 10px 0 0 250px;
+    }
+    #Nav_Heading{
+        font-size: 30px;
+        font-family: "Dancing Script", cursive;
+        color: white;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .Nav_Heading{
+        display: flex;
+        margin: 10px 0 0 350px;
+    }
+    #Nav_Head{
+        margin: 10px 0 0 70px;
+        font-size: 22px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .Home_Page{
+        display: flex;
+        height: 90vh;
+        width: 100%;
+        background: linear-gradient(135deg, #fb8263 1100px, #fdc5b1 70px);
+
+    }
+    .Left_box{
+        height: 400px;
+        width: 500px;
+        margin: 100px 0 0 200px;
+    }
+    #Home_heading{
+        font-size: 50px;
+        color: white;
+        font-family: "Dancing Script", cursive;
+    }
+    #Home_para{
+        color: white;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    /* #Home_Btn{
+        border: none;
+        border-radius: 20px;
+        color: white;
+        background-color: rgb(180, 47, 10);
+        font-size: 17px;
+        margin: 30px 0 0 0;
+        padding: 10px 30px;   
+    } */
+
+    .button-link {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        background-color: #d1441f;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .Right_Box{
+        height: 450px;
+        width: 400px;
+        background-color: white;
+        margin: 100px 0 0 160px;
+        border-radius: 40px;
+    }
+    #Home_img{
+        margin: 50px 0 0 70px;
+    }
+    .About{
+        display: flex;
+        height: 400px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    .About_Left{
+        height: 350px;
+        width: 550px;
+        margin: 30px 0 0 60px;
+    }
+    #About_img{
+        height: 300px;
+        width: 450px;
+        margin: 30px 0 0 60px;
+    }
+    .About_Right{
+        height: 350px;
+        width: 550px;
+        margin: 30px 0 0 60px;
+    }
+    #About_Heading{
+        font-size: 30px;
+        margin: 50px 0 0 60px;
+    }
+    #About_Para{
+        margin: 10px 0 0 60px;
+    }
+    #About_btn{
+        border: none;
+        border-radius: 20px;
+        color: white;
+        background-color: rgb(180, 47, 10);
+        font-size: 17px;
+        margin: 30px 0 0 60px;
+        padding: 10px 30px;   
+    }
+
+/* footer */
+.footer{
+    display: flex;
+    height: 120px;
+    width: 100%;
+    background-color: #ff8566;
+}
+#Footer_img{
+    height: 40px;
+    width: 40px;
+    margin: 7px;
+}
+.footer_container{
+    margin: 25px 0 0 650px;
+}
+#Footer_para{
+    margin: 10px 0 0 -300px;
+    color: white;
+}
+
